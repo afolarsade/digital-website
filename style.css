@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.intro{
+    color: #fff;
+    text-align: center;
+    font-size: 15px;
+    background-color: #000;
+    height: 40px;
+}
+.letter{
+    position: relative;
+    top: 10px;
+}
+                /*----------navigation----------*/
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 90px;
+    padding-left: 30px;
+}
+.navbar-nav li{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+.navbar{
+    background: #fff;
+}
+.navbar-toggler{
+    border: none!important;
+}
+.nav-link{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
+                    /*-------------slider----------*/
+#slider{
+    width: 100%;
+}
+                    /*-------------About----------*/
+#about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #555;
+}
+#about .btn{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.about-content{
+    padding-top: 20px;
+}
+#design{
+    position: relative;
+    bottom: 10px;
+}
+.skills-bar p{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar{
+    border-radius: 16px;
+}
+.progress{
+    border-radius: 16px!important;
+    margin-bottom: 20px;
+}
+            /*--------------Services---------*/
+#services{
+                background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/IMAGE9999999999999999999999.jpg);
+                background-size: cover;
+                background-position: center;
+                color: #efefef!important;
+                background-attachment: fixed;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+#services h1{
+                padding-bottom: 60px;
+                color: #efefef!important;
+                padding-left: 100px;
+            } 
+#services h1::after{
+                content: "";
+                background: #efefef;
+                display: block;
+                height: 1px;
+                width: 80px;
+                margin: 10px 15px;
+            }
+
+/*----------------------------------working process----------------*/
+#working-process{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #777!important; 
+} 
+#working-process h1{
+    padding-bottom: 100px;
+}
+#working-process h1::after{
+    content: "";
+    background: #555;
+    display: block;
+    height: 2px;
+    width: 80px;
+    margin: 15px 15px;
+}
+#working-process .active{
+    border-radius: 20%;
+    background-color: brown;
+    margin-bottom: 100px;
+}
+#working-process .second{
+    background-color: yellowgreen;
+    border-radius: 20%;
+    margin-bottom: 100px;
+}
+#working-process .third{
+    background-color: peachpuff;
+    border-radius: 20%;
+    margin-bottom: 100px;
+}
+#working-process h3{
+    color: #fff;
+}
+#working-process .active p{
+    color: #efefef;
+}
+#working-process .icon{
+    width: 50px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+    height: 30px;
+    color: #efefef;
+    font-weight: bold;
+}
+/*--------------------------Fellowship----------------------------*/
+#fellowship{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(/images/23232323232323232323232323.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #efefef!important;
+}
+#fellowship h1{
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+#fellowship h2{
+    padding: 150px 10px 80px 200px;
+}
+#fellowship .btn{
+    padding: 10px 20px;
+}
+#fellowship .signup{
+    padding: 0 10px 50px 230px;
+}
+/*---------------------------contact us------------------------*/
+#contact{
+    background-color: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+.contact-form{
+    padding: 15px;
+}
+::placeholder{
+    color: #999!important;
+}
+#contact h1::after{
+    content: "";
+    background: #555;
+    display: block;
+    height: 2px;
+    width: 80px;
+    margin: 10px 15px;
+}
+.follow{
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+/*--------------------------Footer------------------------------*/
+#footer{
+    background: #333;
+    color: #fff;
+    padding: 12px;
+}
